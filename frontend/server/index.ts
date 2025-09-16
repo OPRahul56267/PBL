@@ -55,7 +55,7 @@ app.use((req, res, next) => {
   }
 
   // Choose host based on platform
-  const port = parseInt(process.env.PORT || "5000", 10);
+  const port = parseInt(process.env.PORT || "3000", 10);
   const host = process.platform === "win32" ? "127.0.0.1" : "0.0.0.0";
 
   server.listen(port, host, () => {
