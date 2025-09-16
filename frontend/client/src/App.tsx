@@ -1,3 +1,5 @@
+//  "dev": "cross-env NODE_ENV=development tsx server/index.ts",
+
 import { useState, useEffect } from 'react';
 import { Route, Switch, useLocation } from 'wouter';
 import { QueryClientProvider } from '@tanstack/react-query';
