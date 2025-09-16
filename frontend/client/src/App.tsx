@@ -1,5 +1,8 @@
-//  "dev": "cross-env NODE_ENV=development tsx server/index.ts",
-
+// //  "dev": "cross-env NODE_ENV=development tsx server/index.ts",
+//   "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
+//   "start": "cross-env NODE_ENV=production node dist/index.js",
+//   "check": "tsc",
+//   "db:push": "drizzle-kit push"
 import { useState, useEffect } from 'react';
 import { Route, Switch, useLocation } from 'wouter';
 import { QueryClientProvider } from '@tanstack/react-query';
